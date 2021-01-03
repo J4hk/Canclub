@@ -1,0 +1,1 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Main_Project.SiteMaster" %>

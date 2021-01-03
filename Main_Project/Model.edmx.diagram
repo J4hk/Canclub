@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="51494b0bad60490185890de4531880cc" Name="Diagram1">
+        <EntityTypeShape EntityType="ProjectModel.Comment" Width="1.5" PointX="3" PointY="3.625" />
+        <EntityTypeShape EntityType="ProjectModel.Proposal" Width="1.5" PointX="0.75" PointY="3.5" />
+        <EntityTypeShape EntityType="ProjectModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="1.875" />
+        <EntityTypeShape EntityType="ProjectModel.User" Width="1.5" PointX="0.75" PointY="7.125" />
+        <EntityTypeShape EntityType="ProjectModel.Vote" Width="1.5" PointX="3" PointY="0.75" />
+        <EntityTypeShape EntityType="ProjectModel.VoteResult" Width="1.5" PointX="2.75" PointY="6.875" />
+        <AssociationConnector Association="ProjectModel.FK_Comment_Proposal" />
+        <AssociationConnector Association="ProjectModel.FK_Comment_User" />
+        <AssociationConnector Association="ProjectModel.FK_Vote_Proposal" />
+        <AssociationConnector Association="ProjectModel.FK_Vote_User" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
